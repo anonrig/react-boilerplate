@@ -4,6 +4,7 @@
   "description": "React Boilerplate",
   "main": "index.js",
   "scripts": {
+    "build": "node_modules/.bin/webpack -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

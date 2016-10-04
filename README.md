@@ -5,9 +5,9 @@ Install
 npm install
 ```
 
-Run app
+Build app
 ==
 
 ```javascript
-node_modules/.bin/webpack -d
+npm run build
 ```
