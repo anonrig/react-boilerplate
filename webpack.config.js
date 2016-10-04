@@ -21,6 +21,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
+        include: APP_DIR,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
       }
     ]
